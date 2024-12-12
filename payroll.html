@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payroll | ITC Showcase</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <h1>Simple Payroll Assignment</h1>
+        <nav>
+            <a href="index.html">Home</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <form id="payroll-form">
+                <label for="hours">Enter Hours Worked:</label>
+                <input type="number" id="hours" name="hours">
+
+                <label for="rate">Enter Hourly Rate:</label>
+                <input type="number" id="rate" name="rate">
+
+                <button type="button" id="calculate-payroll">Calculate Payroll</button>
+            </form>
+            <p id="payroll-result"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 ITC Showcase</p>
+    </footer>
+
+    <script src="js/payroll.js"></script>
+</body>
+
+</html>
